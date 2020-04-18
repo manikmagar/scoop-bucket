@@ -1,2 +1,5 @@
 # Scoop buckets
 
+Available buckets to install on windows - 
+
+* https://github.com/manikmagar/mule-flow-diagrams#scoop-windows[muleflowdiagrams]
