@@ -1,11 +1,11 @@
 {
     "homepage": "https://github.com/manikmagar/mule-flow-diagrams",
     "description": "Mule flow dependency graphs and diagrams. Visualize your flow dependencies.",
-    "version": "0.4.0",
+    "version": "0.4.1",
     "license": "MIT",
-    "url": "https://github.com/manikmagar/mule-flow-diagrams/releases/download/v0.4.0/muleflowdiagrams-0.4.0.zip",
-    "hash": "sha256:f02116d97e3bc807235fd798f997f8529d52e26ae74b34831da6257f3e8bc714",
-    "extract_dir": "muleflowdiagrams-0.4.0",
+    "url": "https://github.com/manikmagar/mule-flow-diagrams/releases/download/v0.4.1/muleflowdiagrams-0.4.1.zip",
+    "hash": "sha256:3899858dffdbde8b0e30481fdf763feea91a0ea23cdbf0ccb06b6760a06fc73c",
+    "extract_dir": "muleflowdiagrams-0.4.1",
     "env_add_path": "bin",
     "suggest": {
       "JDK": [
