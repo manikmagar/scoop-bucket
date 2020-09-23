@@ -2,4 +2,6 @@
 
 Available buckets to install on windows - 
 
-* https://github.com/manikmagar/mule-flow-diagrams#scoop-windows[muleflowdiagrams]
+* https://github.com/manikmagar/mulefd#scoop-windows[mulefd]
+
+NOTE: `mulefd` previously was known as `muleflowdiagrams`.

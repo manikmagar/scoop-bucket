@@ -1,0 +1,27 @@
+{
+    "homepage": "https://github.com/manikmagar/mulefd",
+    "description": "Mule flow dependency graphs and diagrams. Visualize your flow dependencies.",
+    "version": "0.5.0",
+    "license": "MIT",
+    "url": "https://github.com/manikmagar/mulefd/releases/download/v0.5.0/mulefd-0.5.0.zip",
+    "hash": "sha256:3899858dffdbde8b0e30481fdf763feea91a0ea23cdbf0ccb06b6760a06fc73c",
+    "extract_dir": "mulefd-0.5.0",
+    "env_add_path": "bin",
+    "suggest": {
+      "JDK": [
+        "java/oraclejdk",
+        "java/openjdk"
+      ]
+    },
+    "checkver": {
+      "url": "https://github.com/manikmagar/mulefd/releases/latest",
+      "re": "v([\\d.]+).zip"
+    },
+    "autoupdate": {
+      "url": "https://github.com/manikmagar/mulefd/releases/download/v$version/mulefd-$version.zip",
+      "extract_dir": "mulefd-$version",
+      "hash": {
+        "url": "$url.sha256"
+      }
+    }
+  }
