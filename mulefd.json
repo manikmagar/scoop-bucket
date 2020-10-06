@@ -1,27 +1,27 @@
 {
-    "homepage": "https://github.com/manikmagar/mulefd",
-    "description": "Mule flow dependency graphs and diagrams. Visualize your flow dependencies.",
-    "version": "0.5.0",
-    "license": "MIT",
-    "url": "https://github.com/manikmagar/mulefd/releases/download/v0.5.0/mulefd-0.5.0.zip",
-    "hash": "sha256:ace0c591d63b6eff2dc3a23b3f73b7387fb9a433af693b45d4fec73e6779861d",
-    "extract_dir": "mulefd-0.5.0",
-    "env_add_path": "bin",
-    "suggest": {
-      "JDK": [
-        "java/oraclejdk",
-        "java/openjdk"
-      ]
-    },
-    "checkver": {
-      "url": "https://github.com/manikmagar/mulefd/releases/latest",
-      "re": "v([\\d.]+).zip"
-    },
-    "autoupdate": {
-      "url": "https://github.com/manikmagar/mulefd/releases/download/v$version/mulefd-$version.zip",
-      "extract_dir": "mulefd-$version",
-      "hash": {
-        "url": "$url.sha256"
-      }
+  "homepage": "https://github.com/manikmagar/mulefd",
+  "description": "Mule flow dependency graphs and diagrams. Visualize your flow dependencies.",
+  "version": "0.7.2",
+  "license": "MIT",
+  "url": "https://github.com/manikmagar/mulefd/releases/download/v0.7.2/mulefd-0.7.2.zip",
+  "hash": "sha256:97982f57db281bac793ae0883bb30075e6eff1a1d76dc094a1a6bc4bc2251ffc",
+  "extract_dir": "mulefd-0.7.2",
+  "env_add_path": "bin",
+  "suggest": {
+    "JDK": [
+      "java/oraclejdk",
+      "java/openjdk"
+    ]
+  },
+  "checkver": {
+    "url": "https://github.com/manikmagar/mulefd/releases/latest",
+    "re": "v([\\d.]+).zip"
+  },
+  "autoupdate": {
+    "url": "https://github.com/manikmagar/mulefd/releases/download/v$version/mulefd-$version.zip",
+    "extract_dir": "mulefd-$version",
+    "hash": {
+      "url": "$url.sha256"
     }
   }
+}
