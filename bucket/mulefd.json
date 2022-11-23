@@ -1,11 +1,11 @@
 {
   "homepage": "https://javastreets.com",
   "description": "Generate flow diagrams for Mule applications",
-  "version": "0.10.0",
+  "version": "0.11.0",
   "license": "MIT",
-  "url": "https://github.com/manikmagar/mulefd/releases/download/v0.10.0/mulefd-0.10.0.zip",
-  "hash": "sha256:10db8b4fbec1eeba5fa6acaab743a3e02b9e0ce478741bdabf40f81e9cc170ac",
-  "extract_dir": "mulefd-0.10.0",
+  "url": "https://github.com/manikmagar/mulefd/releases/download/v0.11.0/mulefd-0.11.0.zip",
+  "hash": "sha256:6ca0960321c9ad90f2188389c7c91ad9dc8c03646b9c3c018c26070f24586a0b",
+  "extract_dir": "mulefd-0.11.0",
   "env_add_path": "bin",
   "suggest": {
     "JDK": [
